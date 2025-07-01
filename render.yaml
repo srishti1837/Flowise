@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: flowise
+    env: node
+    plan: free
+    buildCommand: |
+      yarn
+      yarn build
+    startCommand: yarn start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: Career Assisstant
+        value: admin
+      - key: career@123
+        value: yourpassword
