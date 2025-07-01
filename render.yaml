@@ -8,9 +8,14 @@ services:
       yarn build
     startCommand: yarn start
     envVars:
-      - key: PORT
-        value: 3000
-      - key: Career Assisstant
-        value: admin
-      - key: career@123
-        value: yourpassword
+  - key: PORT
+    value: 3000
+  - key: Career Assisstant
+    value: admin
+  - key: career@123
+    value: yourpassword
+  - key: NODE_ENV
+    value: production
+  - key: GOOGLE_API_KEY
+    value: AIzaSyBPmQHaY-Bz53d-X3cYyPcPJz3RW7IixcQ
+
